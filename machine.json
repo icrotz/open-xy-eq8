@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "sdk": "1.6",
+  "kind": "effect",
+  "description": "Eight-band graphic EQ: fixed octave bands, each +/-24 dB."
+}

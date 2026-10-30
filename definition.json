@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "eq8",
+  "name": "Graphic EQ",
+  "parameters": [
+    {"id":"b63",  "label":"63 Hz",  "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar"},
+    {"id":"b125", "label":"125 Hz", "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar"},
+    {"id":"b250", "label":"250 Hz", "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar"},
+    {"id":"b500", "label":"500 Hz", "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar"},
+    {"id":"b1k",  "label":"1 kHz",  "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar", "control":0},
+    {"id":"b2k",  "label":"2 kHz",  "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar", "control":1},
+    {"id":"b4k",  "label":"4 kHz",  "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar", "control":2},
+    {"id":"b8k",  "label":"8 kHz",  "default":0.5, "mapping":{"kind":"linear","minimum":-24,"maximum":24}, "display":"bipolar", "control":3}
+  ],
+  "presets": {},
+  "resources": {}
+}
